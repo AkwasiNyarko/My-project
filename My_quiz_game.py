@@ -38,7 +38,7 @@
             print("Correct!\n")
             return 1
         else:
-            print(f"Incorrect! The right answer is {question_data['correct']}.\n")
+            print(f"Incorrect! The right answer is {question_data['answer']}.\n")
             return 0
     #   Begins the quiz, loops through the questions, and calculates the score.
     def start_quiz(self):
